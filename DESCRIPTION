@@ -1,11 +1,11 @@
 Package: isomiRs
-Version: 1.10.0
+Version: 1.10.1
 Date: 2018-10-23
 Type: Package
 Title: Analyze isomiRs and miRNAs from small RNA-seq
 Description: Characterization of miRNAs and isomiRs, clustering and
    differential expression.
-biocViews: miRNA, RNASeq,
+biocViews: ImmunoOncology, miRNA, RNASeq,
     DifferentialExpression, Clustering
 BugReports: https://github.com/lpantano/isomiRs/issues
 Suggests:
