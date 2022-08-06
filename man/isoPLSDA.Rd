@@ -81,15 +81,6 @@ significant of the group separation using miRNA/isomiR expression data.
 Read more about the parameters related to the PLS-DA directly from
 \code{\link[DiscriMiner:plsDA]{DiscriMiner::plsDA()}} function.
 }
-\examples{
-data(mirData)
-# Only miRNAs with > 10 reads in all samples.
-ids <- isoCounts(mirData, minc=10, mins=6)
-ids <- isoNorm(ids, formula=~condition)
-pls.ids = isoPLSDA(ids, "condition", nperm = 2)
-cat(paste0("pval:",pls.ids$p.val))
-cat(paste0("components:",pls.ids$components))
-}
 \references{
 Perez-Enciso, Miguel and Tenenhaus, Michel. Prediction of clinical outcome with microarray data:
 a partial least  squares discriminant analysis (PLS-DA) approach. Human

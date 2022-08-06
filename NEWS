@@ -1,3 +1,9 @@
+Changes in version  1.24.1
+
+FIX
+
+* Remove DiscriMiner package dependency and related code
+
 Changes in version  1.21.1
 
 FIX

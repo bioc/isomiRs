@@ -35,11 +35,3 @@ samples score distribution along the components.
 It uses \code{\link[GGally:ggpairs]{GGally::ggpairs()}}
 for the plot.
 }
-\examples{
-data(mirData)
-# Only miRNAs with > 10 reads in all samples.
-ids <- isoCounts(mirData, minc=10, mins=6)
-ids <- isoNorm(ids, formula=~condition)
-pls.ids <- isoPLSDA(ids, "condition", nperm = 2)
-isoPLSDAplot(pls.ids)
-}
